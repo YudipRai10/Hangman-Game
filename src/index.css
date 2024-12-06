@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.drawing-container {
+  position: relative;
+}
+
+.base {
+  height: 10px;
+  width: 250px;
+  background-color: black;
+}
+
+.height {
+  height: 400px;
+  width: 10px;
+  background-color: black;
+  margin-left: 120px;
+}
+
+.head {
+  height: 10px;
+  width: 200px;
+  background-color: black;
+  margin-left: 120px;
+}
+.neck {
+  height: 50px;
+  width: 10px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.word-container {
+  display: flex;
+  gap: 0.25rem;
+  font-size: 6rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+
+.keyboard-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 0.5rem;
+}
